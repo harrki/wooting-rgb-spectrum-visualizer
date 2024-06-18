@@ -1,0 +1,19 @@
+{
+  "name": "electron-wooting-rgb-test-01",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "debug": "electron . --enable-logging"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^31.0.1"
+  },
+  "dependencies": {
+    "color": "^4.2.3",
+    "simple-javascript-wooting-rgb": "file:../simple-javascript-wooting-rgb"
+  }
+}
